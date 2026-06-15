@@ -39,7 +39,7 @@ def return_to_menu
     print "Enter the corresponding number or command from the menu selection: \n"
     print "run --help for syntax command options & for the additional tools (you can also run h or HELP)\n"
 
-    # setting a custom ommand line prompt 
+    # setting a custom command line prompt 
     prompt = "JEANETTE>"
 end
 
