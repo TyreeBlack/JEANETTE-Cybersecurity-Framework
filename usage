@@ -1,1 +1,46 @@
 
+🛠️ JEANETTE Cybersecurity Framework: Operational Documentation
+
+An integrated, multi-module Ruby command-line toolkit designed for security auditing, network reconnaissance, and host vulnerability assessment.
+This manual provides the operational baseline, structural specifications, and dependency mapping required to execute and maintain the tool across approved platforms.
+---
+
+⚡ System Dependencies & SetupThe framework leverages native operating system terminal interfaces combined with specialized Ruby gems to manage ASCII decoration, platform checks, interactive prompts, and browser integration.
+
+* artii → Responsible for parsing and generating block font ASCII typography.
+* os → Executes environmental validation checks to verify system compatibility.
+* readline → Powers the persistent interactive command prompt history buffer.
+* launchy → Spawns default system browser threads to interface with web assets.
+
+
+Initializing Environment Context:
+
+📦 Core Architecture & Submenu Matrix
+---
+The framework decouples defensive tasks into dedicated sub-shells. Each operational branch utilizes independent variable scoping and custom prompt definitions (JEANETTE_NETWORKING>, JEANETTE_VULNERABILITY>).
+
+1. Network Discovery ModuleGraphical Port Scanner Intercept: Calls internal scanner functions. Expects port_scanner.py to be staged locally in the active working directory with executable permissions (chmod +x).Wireless Network Environment Overview: Maps local radio space and interface states.Host Device Enumeration: Runs local asset discovery loops across the subnet.
+2. Vulnerability Scanning ModuleVirusTotal Integration: Spawns a browser node directly to the global intelligence GUI via Launchy.Nessus Service Control: Executes a system service call (systemctl start nessusd.service) to spin up local scanner engines. Requires administrative/root authentication.CVE Lookups & Correlation: Matches system configurations against known threat dictionaries.
+3. Social Engineering Detection Email Body Analyzer Identifier: Runs contextual triage loops on incoming message text.Credential Exposure Matrix: Audits databases for compromised account data.URL Reputation Integrity Check: Verifies web target safety vectors.
+4. Configuration Auditing Privilege Escalation Mapping: Monitors access controls and permissions anomalies.User Account & Last Login Auditing: Inspects active system directories for credential tracking.NIST Standards Portal: Auto-launches the official regulatory baseline site for compliance review.
+5. Decompiler for Malicious CodeGhidra Integration: Fires up reverse-engineering suites to break down binaries.Memory Dumps & Hex Modification: Captures volatile system storage blocks for binary auditing.
+
+
+🛡️ Triage and Operation Verification
+---
+
+Standard Execution Flow:
+1. The loader verifies platform compliance (Windows 10/11, Linux, MacOS).
+2. The interactive shell loops continuously via a while Readline block.
+3. Menus refresh dynamically; typing 6 in submenus triggers return_to_menu to cleanly clear local child arrays and re-sync the prompt state back to JEANETTE>.
+
+Error Control Protocols:
+* Nessus Fails to Boot: Ensure the service binary path maps to /bin/systemctl and your terminal holds sudo elevation before choosing the module.
+* Browser Fails to Open via Launchy: Run sudo gem install launchy to re-sync missing system interface drivers.
+
+
+🚀 Technical Performance Roadmap
+---
+* Hosting Control Repository: Core code updates, script additions, and patch documentation are tracked directly at the JEANETTE Cybersecurity Framework GitHub Page.
+* Syntax Reference Engine: Typing --help, h, or HELP at the main prompt delivers inline configuration arguments, deployment switches, and infrastructure settings on demand.
+
